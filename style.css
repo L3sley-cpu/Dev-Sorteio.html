@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.retagulo{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.788);
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    
+}
+
+img{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.inputs{
+    padding: 10px;
+    width: 370px;
+    height: 60px;
+    background-color: white;
+    margin-left:16px;
+    border-radius: 10px;
+}
+
+.input1, .input2{
+    width: 170px;   
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    border-color: #4e1683;
+    border-bottom: 3px solid #4e1683;;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #20B741;
+    font-size: 23px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #1d0930;
+
+}
+
+button:hover{
+    background-color: #0e7e28;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:active{
+    transform: scale(0.95);
+    
+}
+
+h1{
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+}
