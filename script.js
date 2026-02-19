@@ -10,4 +10,8 @@ function generateNumber() {
     if (isNaN(result) || min == max) {
         document.querySelector('.numero').innerHTML = 'Erro';
     }
+
+    else if ((result) || min < max) {
+        document.querySelector('.numero').innerHTML = 'Erro';
+    }
 }
