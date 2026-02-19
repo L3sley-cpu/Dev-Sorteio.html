@@ -7,7 +7,7 @@ function generateNumber() {
 
     document.querySelector('.numero').innerHTML = result;
 
-    if (isNaN(result) || min == max) {
+    if (isNaN(result) || min >= max) {
         document.querySelector('.numero').innerHTML = 'Digite um numero valido';
         document.querySelector('.numero').style.fontSize = '20px';
         }
